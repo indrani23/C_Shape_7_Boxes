@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    width: 200px;
+
+    
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    border: 1.5px solid black;
+    cursor: pointer;
+}
+
+.green-color {
+    background-color: green;
+}
